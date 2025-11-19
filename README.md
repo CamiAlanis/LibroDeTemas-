@@ -17,7 +17,9 @@ Este proyecto digitaliza el libro de temas, permitiendo registrar clases y gesti
 - *MySQL* (base de datos)
 
 ## Estructura del proyecto
-libro-de-temas/
+
+```plaintext
+LibroDeTemas/
 │
 ├── backend/
 │   ├── package.json
@@ -26,13 +28,13 @@ libro-de-temas/
 │   │   ├── app.js
 │   │   ├── server.js
 │   │   ├── config/
-│   │   │   ├── db.js
+│   │   │   └── db.js
 │   │   ├── models/
 │   │   ├── controllers/
 │   │   ├── routes/
 │   │   ├── middlewares/
 │   │   └── utils/
-│   ├── .env
+│   └── .env
 │
 └── frontend/
     ├── package.json
